@@ -29,7 +29,10 @@ list
 <br/>
 <br/>
 
-* 파일 권한, 퍼미션 정보
+* 파일 권한, 퍼미션 정보  
+
+
+change mode  
 
 ex) rwxr-xr-x  
 r(읽기 권한), w(쓰기 권한), x(실행 권한)  
@@ -204,6 +207,8 @@ stdin >> **grep** >> stdout
 <br/>
 
 > 고급 쉘 기능  
+
+
 `$find .` : 현재 디렉토리 이하 모든 파일들의 전체 경로 표시  
 `$find . -maxdepth ` : maxdepth 가 1이하 인, 현 디렉토리의 파일들을 표시  
 
