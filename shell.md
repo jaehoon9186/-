@@ -228,7 +228,7 @@ stdin >> **grep** >> stdout
 |-c|tar 아카이브 생성, 기존 아카이브 덮어쓰기. (파일 묶을 때 사용)|
 
 
-
+[참고](https://recipes4dev.tistory.com/146)
 
 
 <br/>
