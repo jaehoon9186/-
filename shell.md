@@ -267,6 +267,7 @@ stdin >> **grep** >> stdout
 `$touch -h -t [시간] [링크이름]` : 심볼릭 링크 타임 스탬프 수정   
 
 하드 링크 :  
+`$ln [원본파일] [하드링크파일]` : 
 
 기타 옵션 등  
 [참고](https://server-talk.tistory.com/140)  [심볼릭 링크와 하드링크](https://mrrootable.tistory.com/37)  
