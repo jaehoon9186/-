@@ -277,7 +277,7 @@ stdin >> **grep** >> stdout
 <br/>
 
 > kerberos 티켓 확인  
-:  커비로스(케르베로스) == 인증  
+:  커비로스(케르베로스) == 인증   장? 단? 왜 사용?  
 * 동일관리 도메인에서 인증 서버를 사용하는 개체 인증 프로토콜   
 * 두가지 기능 수행 (1. 상호인증, 2. 세션키 설정)  
 
@@ -294,7 +294,26 @@ stdin >> **grep** >> stdout
 * AS<--대칭키(K A)공유-->Alice(유저) , AS<--대칭키(K B)공유-->Bob(유저)
 * KDC 는 마스터키(K KDC) 갖고있음, AS만 이 키를 알고 있다. 
 
-<img width="471" alt="Screen Shot 2021-10-06 at 1 41 00 PM" src="https://user-images.githubusercontent.com/83233720/136141723-6f44970b-eab7-457c-8981-99bd23550ad2.png">
+<img width="471" alt="Screen Shot 2021-10-06 at 1 41 00 PM" src="https://user-images.githubusercontent.com/83233720/136141723-6f44970b-eab7-457c-8981-99bd23550ad2.png">  
+
+<img width="465" alt="Screen Shot 2021-10-06 at 1 46 05 PM" src="https://user-images.githubusercontent.com/83233720/136142090-9312afa5-3a19-4588-992f-ea29ffed3db6.png">  
+
+<img width="462" alt="Screen Shot 2021-10-06 at 1 48 50 PM" src="https://user-images.githubusercontent.com/83233720/136142271-392cbb0d-566c-48b6-b12d-c0752cf0a28c.png">
+
+kerberos Tickets
+* AS는 Ticket-granting Tickets(TGTs)을 발행한다. 
+  - TGT는 클라이언트를 인증한 후에 망 자원에 접근할 수 있는 Ticket을 얻는데 사용된다. 
+* TGT 에는 다음의 정보가 포함된다. 
+  - 비밀키(Secret key) - 세션키 아님
+  - 사용자 ID
+  - 유효기간
+* 모든 TGT는 K kdc로 암호화 되어 전송된다.
+  - 따라서 오직 KDC 만이 TGT를 읽을 수 있다. 
+* 요청이 오면, KDC는 망에 접근할 수 있는 Ticket을 발행한다. 
+
++ AS 와 KDC는 기능의 측면에서 구분한 것이고, 실제 운용은 동일 서버에서 수행 될 수 있다. 
+
+[참고 블로그](https://juneyr.dev/2018-10-31/kerberos)  
 
 
 `$/usr/bin/klist -t` : klist 명령을 -f 옵션과 함께 사용하면 사용자가 보유한 티켓과 이러한 티켓의 속성을 확인 할 수 있음. 
