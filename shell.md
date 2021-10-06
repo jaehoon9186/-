@@ -316,7 +316,8 @@ kerberos Tickets
 [참고 블로그](https://juneyr.dev/2018-10-31/kerberos)  
 
 
-`$/usr/bin/klist -t` : klist 명령을 -f 옵션과 함께 사용하면 사용자가 보유한 티켓과 이러한 티켓의 속성을 확인 할 수 있음. 
+`$/usr/bin/klist -t` : klist 명령을 -f 옵션과 함께 사용하면 사용자가 보유한 티켓과 이러한 티켓의 속성을 확인 할 수 있음.  
+`$klist -l` : 모든 티켓 목록을 확인가능 
 
 
 
