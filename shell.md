@@ -264,10 +264,12 @@ stdin >> **grep** >> stdout
 `$ln -s [원본 파일] [심볼릭링크 이름]` : 심볼릭링크 이름 -> 원본파일 이름  / 원본으로 실행(이동)하는 링크파일 생성  
 
 `$touch -h [링크이름]` : 심볼릭 링크 타임스탬프 수정  
-`$touch -h -t [시간] [링크이름]` : 심볼릭 링크 타임 스탬프 수정  
+`$touch -h -t [시간] [링크이름]` : 심볼릭 링크 타임 스탬프 수정   
+
+하드 링크 :  
 
 기타 옵션 등  
-[참고](https://server-talk.tistory.com/140)
+[참고](https://server-talk.tistory.com/140)  [심볼릭 링크와 하드링크](https://mrrootable.tistory.com/37)  
 
 
 <br/>
