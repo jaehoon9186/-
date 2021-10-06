@@ -1,4 +1,4 @@
 # Git
 
-[참고 git pretty](https://niklasjang.tistory.com/27)  
+[참고 git log](https://niklasjang.tistory.com/27)  
 
