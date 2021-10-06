@@ -136,6 +136,8 @@ ex) ug+x, g-x, +x, u=rx, u-w, g+r, o+x
 
 [첨고](http://www.incodom.kr/Linux/%EA%B8%B0%EB%B3%B8%EB%AA%85%EB%A0%B9%EC%96%B4/touch)  
 
+[참고-atime, ctime, mtime](https://withcoding.com/115)
+
 <br/>
 <br/>
 
