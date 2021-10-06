@@ -232,7 +232,7 @@ stdin >> **grep** >> stdout
 
 `$find .` : 현재 디렉토리 이하 모든 파일들의 전체 경로 표시  
 `$find . -maxdepth ` : maxdepth 가 1이하 인, 현 디렉토리의 파일들을 표시  
-
+[참고](https://donzbox.tistory.com/140)  
 
 `$bc` : 계산기 , 변수 로 계산 ok, 종료 quit  
 
