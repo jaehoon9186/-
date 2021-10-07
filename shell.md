@@ -322,6 +322,13 @@ kerberos Tickets
 `$/usr/bin/klist -t` : klist 명령을 -f 옵션과 함께 사용하면 사용자가 보유한 티켓과 이러한 티켓의 속성을 확인 할 수 있음.  
 `$klist -l` : 모든 티켓 목록을 확인가능 
 
+`$kinit` : 티켓 생성  ( -l 3h 옵션 3시간동안 유효한 티켓 )
+
+[참고 생성](https://docs.oracle.com/cd/E56343_01/html/E53970/kuser-9.html)  
+
+[참고 조회](https://docs.oracle.com/cd/E56343_01/html/E53970/kuser-7.html)  
+
+
 
 
 
